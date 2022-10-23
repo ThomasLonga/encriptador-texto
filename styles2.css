@@ -1,0 +1,230 @@
+/* CSS PARA NUESTOR INDEX_2*/
+
+body{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(imagenes/lovepik-internet-technology-wallpaper-background-image_500565122.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1380px 1040px;
+
+}
+
+
+.caja{
+    text-align: left;
+    margin-left: 10%;
+    
+}
+
+.logo1{
+    margin-top: 8px;
+    margin-bottom: 0%;
+    width: 150px;
+    height: 150px;
+    text-align: left;
+}
+
+.boton{
+    position: relative;
+    bottom: 80px;
+    width: 200px;
+    height: 40px;
+    margin-left: 64%;
+    margin-right: 15%;
+    font-weight: bold;
+    color: white;
+    transition: 1.5s all;
+    cursor: pointer;
+    background: black;
+    border: white;;
+    border-radius: 12px;
+
+
+}
+
+.boton:hover{
+    transform: scale(1.2);
+    background-color: rgba(0, 178, 202, 0.721);
+}
+
+.contenedor {
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .contenedor_2 {
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+    justify-content: right;
+    align-items: flex-start;
+    
+  }
+
+  .contenedor_izquierdo, .contenedor_izquierdo {
+    padding-right: 30%;
+    align-items: left;
+    width: 50%;
+    height: 25rem;
+    margin-top: 20px;
+  }
+
+  .entrada_texto {
+    margin-left: 15%;
+    position: relative;
+    margin-right: 100px;
+    padding: 20px;
+    width: 75%;
+    height: 25rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 27px;
+    text-align: left;
+    background-color: white;
+  }
+
+  .entrada_texto::placeholder {
+    text-align: center;
+    color: black;
+  }
+
+  .botones {
+    margin-left: 11% ;
+    display: flex;
+    padding-left: 1.5%;
+    justify-content: left;
+    align-items: left;
+    margin-top: 30px;
+
+  }
+
+  .btn__style {
+    margin: 0 14px;
+    padding: 0.9rem;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+ .btn__style:hover {
+    transition: 1.5s all;
+    transform: scale(1.2);
+    background-color: rgba(0, 178, 202, 0.721);
+  }
+
+  .container__content-right {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+    border: 2px solid var(--pacific-blue);
+    outline: none;
+    resize: none;
+    box-shadow: 0 0 25px -8px rgba(21, 118, 145, 0.478);
+    background-color: var(--camel);
+    border-radius: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    text-align: center;
+    position: relative;
+    height: 30rem;
+  }
+  
+  .container__content-rigth-image {
+    display: block;
+  }
+  
+  .container__content-rigth-image.active {
+    display: none;
+  }
+  
+  .imgDerecha {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .inputText2 {
+    position: absolute;
+    margin-left: 100%;
+    margin-right: 250px;
+    padding: 20px;
+    width: 345px;
+    height: 439px;
+    border: 5px solid white;
+    border-radius: 20px;
+    font-size: 27px;
+    text-align: left;
+    background-color: #006699;
+    color: white;
+    background-image: url(imagenes/mensaje.svg);
+    background-size: 300px 300px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+
+  .inputText2.active {
+    display: block;
+  }
+  
+  .inputText2.active:focus-visible {
+    opacity: 0;
+  }
+  
+  #parrafo{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30ch;
+    margin-left: 20%;  
+
+  }
+  
+  #parrafoDos {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 35%;
+    margin-left: auto;
+    margin-left: auto;
+    margin-left: 20%;
+
+
+  }
+ 
+
+  footer {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background: #006F9A;
+  }
+
+ 
+  
+  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title> ENCRIPTADOR </title>
+    <link rel="stylesheet" href="styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <img src="imagenes/llave-removebg-preview.png" class="logo1">
+        </div>
+    </header>
+
+    <input type="button" onclick="location.href='index.html'" value="BACK" class="boton">
+
+
+    <main class="contenedor">
+        
+        <div class="contenedor_2">
+            <section class="contenedor_izquierdo">
+                <textarea type="text" class="entrada_texto" cols=" 40" rows="6"
+                placeholder="Ingrese el texto aquí"></textarea>
+
+                <div class="botones">
+                    <button class="btnE btn__style" type="button" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btnD btn__style" type="button" onclick="btnDesencriptar()">Desencriptar</button>
+                    <button class="btnCp btn__style" type="button" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </section>
+
+            <section class="container__content-right">
+                <div class="container__content-rigth-image">
+                    <p id="parrafo" class="parrafo-parrafoUno">Ningun mensaje fue encontrado</p>
+                    <p id="parrafoDos" class="parrafo parrafoDos">Ingresa el texto que desee encriptar o desencriptar</p>
+                </div>
+
+                <textarea type="text" class="inputText2" id="salida" cols="18" rows="8"></textarea>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p> <strong> Desarrollado por Santiago Martinez <strong> </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
